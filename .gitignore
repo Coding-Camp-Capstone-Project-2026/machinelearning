@@ -8,3 +8,8 @@ venv/
 .venv/
 *.egg-info/
 .eggs/
+
+# Environment variables
+.env
+.env.*
+.env.local
