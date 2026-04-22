@@ -13,3 +13,10 @@ venv/
 .env
 .env.*
 .env.local
+
+# Large model files (keep .keras for submission)
+model/*.h5
+model/saved_model/
+
+# TensorBoard logs (large, can be regenerated)
+logs/tensorboard/
